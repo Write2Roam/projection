@@ -6,5 +6,5 @@ import react from "@vitejs/plugin-react";
 // If you're deploying to a User/Org Page (yourname.github.io repo), set base to "/".
 export default defineConfig({
   plugins: [react()],
-  base: "/tenmore-dashboard/",
+  base: "/projection/",
 });
