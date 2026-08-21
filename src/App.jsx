@@ -25,17 +25,17 @@ const SCENARIOS = [
 ];
 
 const DEFAULTS = {
-  currentSubs: 850,
-  organicPerDay: 3,
-  dailyBudget: 150,
-  cpa: 12,
+  currentSubs: 70,
+  organicPerDay: 0,
+  dailyBudget: 20,
+  cpa: 2,
   openingDate: "2027-01-15",
   conversionPct: 2,
-  revenuePerConversion: 6000,
-  directBudget: 150,
-  directCpl: 60,
-  directConvPct: 4,
-  directRevenuePerPatient: 6000,
+  revenuePerConversion: 2000,
+  directBudget: 50,
+  directCpl: 20,
+  directConvPct: 2,
+  directRevenuePerPatient: 2000,
 };
 
 const STORAGE_PREFIX = "tenmore-growth-dashboard:";
